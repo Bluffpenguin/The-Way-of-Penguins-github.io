@@ -1,2 +1,2 @@
 # The-Way-of-Penguins-github.io
-The discovery and habits of Penguins
+CS-10 Website Project on the lives and habits of Penguins
