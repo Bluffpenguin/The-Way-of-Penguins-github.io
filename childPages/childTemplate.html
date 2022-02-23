@@ -9,14 +9,34 @@
     <meta name="keywords" content="Childpages, Who Am I">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
-    <style></style>
+    <style>
+     div {border: thin dotted red}
+     * {
+       box-sizing: border-box;
+     }
+     .header {
+       border: 1px solid red
+     }
+     .menu {
+       width: 30%;
+       float: left;
+       padding: 15px;
+       border: 1px solid red
+     }
+     .photo {
+       width: 70%;
+       float: left;
+       padding: 15px;
+       border: 1px solid red;
+     }
+    </style>
 
   </head>
   <body>
-    <div><header></header></div>
-    <div><nav></nav></div>
-    <div><aside></aside></div>
-    <div><section><article></article></section></div>
+    <div><header class="header"><h1> Who Am I? </h1></header></div>
+    <div><aside class="header"></aside></div>
+    <div><nav class="menu"></nav></div>
+    <div><section class="photo"><article></article></section></div>
 
   </body>
   <footer>
